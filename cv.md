@@ -48,3 +48,21 @@ function warnTheSheep(queue) {
     + Supergym progect (HTML, BEM, Saas, JavaScript)
     Deploy link: https://fitness-supergym-accelerator.vercel.app/
 ----
+
+## **Languages:**
+* Russian - native.
+* Russian - A2.
+----
+## **Education & Courses:**
+* Humanitarian University, Faculty of Social Psychology
+
+* **Courses:**
+
+    + *HTML Academy: Profession Frontend Developer:*
+        - HTML and CSS. Adaptive layout and automation.
+        - JavaScript. Professional web interface development.
+        - React Components Layout.
+        - Preparing layout for CMS.
+
+    + *Others:*
+        - Hexlet: Introduction to Git.
