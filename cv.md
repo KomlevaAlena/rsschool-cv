@@ -39,3 +39,12 @@ function warnTheSheep(queue) {
   return `Oi! Sheep number ${sheepNumber}! You are about to be eaten by a wolf!`;
 }
 ```
+
+## **Experience:**
+* Junior Dev:
+    + Lifetour progect (HTML, BEM, Saas, JavaScript)
+    Deploy link: https://lifetour-accelerator.vercel.app/
+
+    + Supergym progect (HTML, BEM, Saas, JavaScript)
+    Deploy link: https://fitness-supergym-accelerator.vercel.app/
+----
