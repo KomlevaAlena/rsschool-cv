@@ -13,3 +13,14 @@ My main goal is to change my professional field.
 I have experience working in a team, resolving disputes between departments, and solving problems in a short time.
 
 ----
+
+## **Skills:**
+
+* HTML
+* CSS, Less, Sass
+* BEM
+* JavaScript, React
+* SQL
+* WordPress
+* Figma, Photoshop, Illustrator
+----
