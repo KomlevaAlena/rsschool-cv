@@ -24,3 +24,18 @@ I have experience working in a team, resolving disputes between departments, and
 * WordPress
 * Figma, Photoshop, Illustrator
 ----
+
+## **Example code**
+
+### *CodeWars: Kata "A wolf in sheep's clothing"*
+
+```
+function warnTheSheep(queue) {
+  const wolfIndex = queue.indexOf("wolf");
+  if (wolfIndex === queue.length - 1) {
+    return "Pls go away and stop eating my sheep";
+  }
+  const sheepNumber = queue.length - wolfIndex - 1;
+  return `Oi! Sheep number ${sheepNumber}! You are about to be eaten by a wolf!`;
+}
+```
