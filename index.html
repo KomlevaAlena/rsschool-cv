@@ -12,101 +12,120 @@
 </head>
 <body>
     <header class="main-header">
-        <nav class="main-nav">
-            <ul class="main-nav__list list">
-                <li class="main-nav__item">My Contact Info:</li>
-                <li class="main-nav__item">About:</li>
-                <li class="main-nav__item">Skills:</li>
-                <li class="main-nav__item">Example code</li>
-                <li class="main-nav__item">Experience:</li>
-                <li class="main-nav__item">Languages:</li>
-                <li class="main-nav__item">Education & Courses:</li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="main-nav">
+                <ul class="main-nav__list list">
+                    <li class="main-nav__item">
+                        <a class="main-nav__link link" href="#name">My Contact Info:</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link link" href="#contacts">About:</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link link" href="#skills">Skills:</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link link" href="#code">Example code</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link link" href="#experience">Experience:</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__item" href="#languages">Languages:</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__item" href="#education">Education & Courses:</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <h1 class="visually-hidden">CV</h1>
-        <section>
-            <h2 class="visually-hidden">Hello!</h2>
-            <div>
+    <main class="main-container">
+        <div class="container">
+            <h1 class="visually-hidden">CV</h1>
+            <section class="name section" id="name">
+                <h2 class="name__title visually-hidden">Hello!</h2>
+                <div class="name__wrapper--img">
 
-            </div>
-            <ul class="list">
-                <li>Komleva Aleona</li>
-                <li>Junior frontend Developer</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2 class="title">My Contact Info:</h2>
-            <ul class="list">
-                <li>Phone: +904 988-25-05</li>
-                <li>E-mail: norgiss404@gmail.com</li>
-                <li>GitHub: https://github.com/KomlevaAlena</li>
-            </ul>
-        </section>
-        <section>
-            <h2 class="title">About:</h2>
-            <p>
-                I am currently a student, continuing my education. My career goals are to develop web interfaces.
-                My main goal is to change my professional field.
-                I have experience working in a team, resolving disputes between departments, and solving problems in a short time.
-            </p>
-        </section>
-
-        <section>
-            <h2 class="title">Skills:</h2>
-            <ul class="list">
-                <li>HTML</li>
-                <li>CSS, Less, Sass</li>
-                <li>JavaScript, React</li>
-                <li>Git, GitHub</li>
-                <li>SQL</li>
-                <li>Figma, Photoshop, Illustrator</li>
-                <li>WordPress</li>
-            </ul>
-        </section>
-        <section>
-            <h2 class="title">Example code</h2>
-            <p>CodeWars: Kata "A wolf in sheep's clothing"</p>
-            <pre>
-                <code>
-                function warnTheSheep(queue) {
-                    const wolfIndex = queue.indexOf("wolf");
-                    if (wolfIndex === queue.length - 1) {
-                    return "Pls go away and stop eating my sheep";
-                }
-                    const sheepNumber = queue.length - wolfIndex - 1;
-                    return `Oi! Sheep number ${sheepNumber}! You are about to be eaten by a wolf!`;
-                }
-                </code>
-            </pre>
-        </section>
-        <section>
-            <h2 class="title">Experience:</h2>
-            <p>Junior Dev: Frontend</p>
-            <ul>
-                <li>
-                    <span>Lifetour progect (HTML, BEM, Saas, JavaScript)</span>
-                    <span>Deploy link:</span>
-                    <a href="https://lifetour-accelerator.vercel.app/">Lifetour</a>
-                </li>
-                <li>
-                    <span>Supergym progect (HTML, BEM, Saas, JavaScript)</span>
-                    <span>Deploy link:</span>
-                    <a href="https://fitness-supergym-accelerator.vercel.app/">Supergym</a>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2 class="title">Languages:</h2>
-            <ul class="list">
-                <li>Russian - native.</li>
-                <li>English - A2.</li>
-            </ul>
+                </div>
+                <ul class="name__list list">
+                    <li class="name__item">Komleva Aleona</li>
+                    <li class="name__item">Junior frontend Developer</li>
+                </ul>
+            </section>
+            <section class="contacts section" id="contacts">
+                <h2 class="title">My Contact Info:</h2>
+                <ul class="list">
+                    <li>Phone: +904 988-25-05</li>
+                    <li>E-mail: norgiss404@gmail.com</li>
+                    <li>GitHub: https://github.com/KomlevaAlena</li>
+                </ul>
+            </section>
+            <section class="about section" id="about">
+                <h2 class="title">About:</h2>
+                <p>
+                    I am currently a student, continuing my education. My career goals are to develop web interfaces.
+                    My main goal is to change my professional field.
+                    I have experience working in a team, resolving disputes between departments, and solving problems in a short time.
+                </p>
+            </section>
+            <section class="skills section" id="skills">
+                <h2 class="title">Skills:</h2>
+                <ul class="list">
+                    <li>HTML</li>
+                    <li>CSS, Less, Sass</li>
+                    <li>JavaScript, React</li>
+                    <li>Git, GitHub</li>
+                    <li>SQL</li>
+                    <li>Figma, Photoshop, Illustrator</li>
+                    <li>WordPress</li>
+                </ul>
+            </section>
+            <section class="code section" id="code">
+                <h2 class="title">Example code</h2>
+                <p>CodeWars: Kata "A wolf in sheep's clothing"</p>
+                <pre>
+                    <code>
+                    function warnTheSheep(queue) {
+                        const wolfIndex = queue.indexOf("wolf");
+                        if (wolfIndex === queue.length - 1) {
+                        return "Pls go away and stop eating my sheep";
+                    }
+                        const sheepNumber = queue.length - wolfIndex - 1;
+                        return `Oi! Sheep number ${sheepNumber}! You are about to be eaten by a wolf!`;
+                    }
+                    </code>
+                </pre>
+            </section>
+            <section class="experience section" id="experience">
+                <h2 class="title">Experience:</h2>
+                <p>Junior Dev: Frontend</p>
+                <ul>
+                    <li>
+                        <span>Lifetour progect (HTML, BEM, Saas, JavaScript)</span>
+                        <span>Deploy link:</span>
+                        <a href="https://lifetour-accelerator.vercel.app/">Lifetour</a>
+                    </li>
+                    <li>
+                        <span>Supergym progect (HTML, BEM, Saas, JavaScript)</span>
+                        <span>Deploy link:</span>
+                        <a href="https://fitness-supergym-accelerator.vercel.app/">Supergym</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="languages section" id="languages">
+                <h2 class="title">Languages:</h2>
+                <ul class="list">
+                    <li>Russian - native.</li>
+                    <li>English - A2.</li>
+                </ul>
+            </section>
+        </div>
     </main>
     <footer>
-        <p>© 2025 Komleva Aleona</p>
+        <div class="container">
+            <p>© 2025 Komleva Aleona</p>
+        </div>
     </footer>
     
 </body>
