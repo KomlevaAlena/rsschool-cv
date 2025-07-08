@@ -51,7 +51,7 @@ function warnTheSheep(queue) {
 
 ## **Languages:**
 * Russian - native.
-* Russian - A2.
+* English - A2.
 ----
 ## **Education & Courses:**
 * Humanitarian University, Faculty of Social Psychology
