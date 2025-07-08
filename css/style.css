@@ -71,9 +71,9 @@ body {
   flex-wrap: wrap;
 }
 
-/* .section {
+.section {
   width: 50%;
-} */
+}
 
 /* list style */
 .list {
@@ -90,6 +90,7 @@ body {
     font-size: 28px;
     line-height: 1.5;
     text-transform: uppercase;
+    color: rgb(95, 95, 95, 1);
 }
 
 /* link style */
@@ -133,4 +134,64 @@ body {
     padding:  5px 10px;
     color: rgba(255, 255, 255, 1);
 }
+
+/* section style */
+
+.main-container .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  border: 2px solid rgba(145, 145, 145, 1);
+}
+
+.name.section {
+  width: 100%;
+}
+
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.name__wrapper--img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  border: 3px solid rgba(145, 145, 145, 1);
+  overflow: hidden;
+  background-image: url("/assets/img/user.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80px 80px;
+}
+
+.name__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.name__item {
+  display: block;
+  width: max-content;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  font-family: "RobotoCondensed-Bold", "Arial", sans-serif;
+  font-size: 28px;
+  line-height: 1.5;
+  color: rgba(95, 95, 95, 1);
+}
+
+
 
