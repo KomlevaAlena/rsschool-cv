@@ -53,11 +53,11 @@
                 </ul>
             </section>
             <section class="contacts section" id="contacts">
-                <h2 class="title">My Contact Info:</h2>
-                <ul class="list">
-                    <li>Phone: +904 988-25-05</li>
-                    <li>E-mail: norgiss404@gmail.com</li>
-                    <li>GitHub: https://github.com/KomlevaAlena</li>
+                <h2 class="contacts__title title">My Contact Info:</h2>
+                <ul class="contacts__list list">
+                    <li class="contacts__item contacts__item--phone">Phone: <a class="contacts__link link" href="tel:+79048882505">+7 904 988-25-05</a></li>
+                    <li class="contacts__item contacts__item--email">E-mail: <a class="contacts__link link" href="mailto:norgiss404@gmail.com">norgiss404@gmail.com</a></li>
+                    <li class="contacts__item contacts__item--github">GitHub: <a class="contacts__link link" href="https://github.com/KomlevaAlena">KomlevaAlena GitHub</a></li>
                 </ul>
             </section>
             <section class="about section" id="about">
@@ -84,16 +84,16 @@
                 <h2 class="title">Example code</h2>
                 <p>CodeWars: Kata "A wolf in sheep's clothing"</p>
                 <pre>
-                    <code>
-                    function warnTheSheep(queue) {
-                        const wolfIndex = queue.indexOf("wolf");
-                        if (wolfIndex === queue.length - 1) {
-                        return "Pls go away and stop eating my sheep";
-                    }
-                        const sheepNumber = queue.length - wolfIndex - 1;
-                        return `Oi! Sheep number ${sheepNumber}! You are about to be eaten by a wolf!`;
-                    }
-                    </code>
+                <code>
+                function warnTheSheep(queue) {
+                    const wolfIndex = queue.indexOf("wolf");
+                    if (wolfIndex === queue.length - 1) {
+                    return "Pls go away and stop eating my sheep";
+                }
+                    const sheepNumber = queue.length - wolfIndex - 1;
+                    return `Oi! Sheep number ${sheepNumber}! You are about to be eaten by a wolf!`;
+                }
+                </code>
                 </pre>
             </section>
             <section class="experience section" id="experience">

@@ -72,7 +72,7 @@ body {
 }
 
 .section {
-  width: 50%;
+  width: 40%;
 }
 
 /* list style */
@@ -86,6 +86,7 @@ body {
 
 .title {
     margin: 0;
+    padding: 0 0 25px 0;
     font-family: "Montserrat-Bold", "Arial", sans-serif;
     font-size: 28px;
     line-height: 1.5;
@@ -143,6 +144,8 @@ body {
   justify-content: center;
   flex-direction: row;
   border: 2px solid rgba(145, 145, 145, 1);
+  padding: 20px;
+  gap: 20px;
 }
 
 .name.section {
@@ -192,6 +195,74 @@ body {
   line-height: 1.5;
   color: rgba(95, 95, 95, 1);
 }
+
+.contacts__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.contacts__item {
+  position: relative;
+  display: block;
+  width: max-content;
+  margin: 0;
+  padding: 0 0 0 40px;
+}
+
+.contacts__item--phone::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("/assets/img/phone.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+}
+
+.contacts__item--email::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("/assets/img/mail.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+}
+
+.contacts__item--github::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("/assets/img/github.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+  color: rgba(95, 95, 95, 0.8);
+}
+
+.contacts__link:active {
+  color: rgba(95, 95, 95, 0.3);
+}
+
 
 
 
