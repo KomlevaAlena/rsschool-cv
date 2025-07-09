@@ -319,14 +319,49 @@ body {
     color: rgba(95, 95, 95, 0.3);
 }
 
+.about__text {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
 
 .code__subtitle {
   display: block;
   margin: 0;
-  padding: 0;
+  padding: 0 0 10px 40px;
   font-size: 20px;
   line-height: 1.5;
   color: rgba(95, 95, 95, 1);
+}
+
+.code__wrapper {
+  display: block;
+  margin: 0;
+  padding: 0 40px 25px 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(95, 95, 95, 1);
+}
+
+.code__text {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(95, 95, 95, 1);
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+.languages__list {
+  flex-direction: column;
+  gap: 25px;
+  list-style: square;
+  padding: 0 0 0 40px;
+  margin: 0
 }
 
 
