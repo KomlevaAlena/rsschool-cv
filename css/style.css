@@ -16,14 +16,6 @@
 }
 
 @font-face {
-  font-family: "RobotoCondensed-Light";
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-  src: url("/assets/fonts/RobotoCondensed-Light.woff2") format("woff2");
-}
-
-@font-face {
   font-family: "Montserrat-Bold";
   font-weight: 700;
   font-style: normal;
@@ -40,7 +32,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* min-height: 100vh; */
     margin: 0;
     padding: 0;
     font-family: "RobotoCondensed", "Arial", sans-serif;
@@ -66,6 +57,13 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    width: 100%;
+  }
+}
+
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -73,6 +71,12 @@ body {
 
 .section {
   width: 40%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
 
 /* list style */
@@ -89,11 +93,18 @@ body {
 .title {
     margin: 0;
     padding: 0 0 25px 0;
+    width: max-content;
     font-family: "Montserrat-Bold", "Arial", sans-serif;
     font-size: 28px;
     line-height: 1.5;
     text-transform: uppercase;
     color: rgb(95, 95, 95, 1);
+}
+
+@media (max-width: 768px) {
+  .title {
+    margin: 0 auto;
+  }
 }
 
 /* link style */
@@ -122,17 +133,20 @@ body {
 
 .main-nav {
     width: 100%;
+    margin: 0 auto;
     background-color: rgba(145, 145, 145, 1);
     color: rgba(255, 255, 255, 1);
     padding: 20px;
 }
 
 .main-nav__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    gap: 10px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .main-nav__link {
