@@ -101,15 +101,21 @@ body {
 .link {
     text-decoration: none;
     color: inherit;
+    border: none;
 }
 
 .link:hover,
-.link:focus {
+.link:focus,
+.link:focus-visible {
     color: rgba(255, 255, 255, 0.5);
+    border: none;
+    outline: none;
 }
 
 .link:active {
     color: rgba(255, 255, 255, 0.3);
+    border: none;
+    outline: none;
 }
 
 /* nav style */
@@ -283,7 +289,7 @@ body {
 
 .experience__list li {
   position: relative;
-  width: 300px;
+  width: 315px;
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
@@ -382,12 +388,15 @@ body {
 }
 
 .footer__link:hover,
-.footer__link:focus {
+.footer__link:focus,
+.footer__link:focus-visible {
   opacity: 0.5;
+  border: none;
 }
 
 .footer__link:active {
   opacity: 0.3;
+  border: none;
 }
 
 
