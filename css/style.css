@@ -364,6 +364,32 @@ body {
   margin: 0
 }
 
+.footer__wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: rgba(145, 145, 145, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 20px;
+}
+
+.footer__link {
+  display: block;
+  width: 93px;
+  height: 48px;
+}
+
+.footer__link:hover,
+.footer__link:focus {
+  opacity: 0.5;
+}
+
+.footer__link:active {
+  opacity: 0.3;
+}
+
 
 
 
