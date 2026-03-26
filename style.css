@@ -274,12 +274,17 @@ body {
    }
 }
 
+[data-theme="dark"] .name__btn {
+  background-image: url("assets/img/sun.svg");
+}
+
 .contacts__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
   flex-direction: column;
   gap: 25px;
+  color: var(--text-primary);
 }
 
 .contacts__item {
@@ -307,7 +312,7 @@ body {
 }
 
 [data-theme="dark"] .contacts__item--phone::before {
-  filter: brightness(1.5);
+  filter: invert(1);
 }
 
 .contacts__item--email::before {
@@ -327,7 +332,7 @@ body {
 }
 
 [data-theme="dark"] .contacts__item--email::before {
-  filter: brightness(1.5);
+  filter: invert(1);
 }
 
 .contacts__item--github::before {
@@ -347,7 +352,7 @@ body {
 }
 
 [data-theme="dark"] .contacts__item--github::before {
-  filter: brightness(1.5);
+  filter: invert(1);
 }
 
 .contacts__link:hover,
@@ -364,7 +369,12 @@ body {
   gap: 25px;
   list-style: square;
   padding: 0 0 0 40px;
-  margin: 0
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.skills__list li::marker {
+  color: var(--accent);
 }
 
 .experience__list {
@@ -373,6 +383,7 @@ body {
   list-style: none;
   padding: 0 0 0 40px;
   margin: 0;
+  color: var(--text-primary);
 }
 
 .experience__list li {
@@ -417,6 +428,7 @@ body {
   display: block;
   margin: 0;
   padding: 0;
+  color: var(--text-primary);
 }
 
 
@@ -455,7 +467,12 @@ body {
   gap: 25px;
   list-style: square;
   padding: 0 0 0 40px;
-  margin: 0
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.languages__list li::marker {
+  color: var(--accent);
 }
 
 .footer__wrapper {
