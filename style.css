@@ -224,10 +224,10 @@ body {
   border-radius: 50%;
   border: 3px solid var(--border-color);
   overflow: hidden;
-  background-image: url("assets/img/user.svg");
+  background-image: url("assets/img/avatar.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 80px 80px;
+  background-size: 100px 100px;
 }
 
 .name__list {
@@ -475,6 +475,24 @@ body {
   color: var(--accent);
 }
 
+.courses {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.courses__list {
+  flex-direction: column;
+  gap: 25px;
+  list-style: square;
+  padding: 0 0 0 40px;
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.courses__list li::marker {
+  color: var(--accent);
+}
+ 
 .footer__wrapper {
   width: 100%;
   display: flex;
