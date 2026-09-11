@@ -475,6 +475,24 @@ body {
   color: var(--accent);
 }
 
+.courses {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.courses__list {
+  flex-direction: column;
+  gap: 25px;
+  list-style: square;
+  padding: 0 0 0 40px;
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.courses__list li::marker {
+  color: var(--accent);
+}
+ 
 .footer__wrapper {
   width: 100%;
   display: flex;
